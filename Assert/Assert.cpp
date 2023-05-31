@@ -1,7 +1,11 @@
+#include <iostream>
 #include <cassert> // Habilitar el uso de assert
+using namespace std::literals;
 
 int main()
 {
+    int z = 2132;
+    std::cout << "a";
     //    BOOL
     assert (    not true == false   );
     assert (    not true != true    );
@@ -16,8 +20,11 @@ int main()
     assert (    '@' == 64   );
     assert (    '@' + 1 == 'A');
     //    UNSIGNED
+    unsigned a = 3, b = 4;
+    assert (    a + b == 7);
     //    INT
     //    DOUBLE
     //    STRING
+    assert (    "gracias "s + "abuela"s == "gracias abuela"s);
 
 }

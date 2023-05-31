@@ -1,5 +1,5 @@
-User: Sergio Daniel Cruz
-Programas que uso:
--Editor: Visual Estudio Code
--Compilador: MSYS2
--Control de Versiones: GitHub
+## Programas que uso
++ User: Sergio Daniel Cruz 
++ Editor: Visual Estudio Code
++ Compilador: MSYS2 12.2.0 (C++20)
++ Control de Versiones: GitHub
