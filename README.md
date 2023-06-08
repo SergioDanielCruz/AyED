@@ -7,4 +7,4 @@
 + Nombre: Sergio Daniel
 + Prueba fetch
 + Probando tener dos repos (uno propio y otro de externo)
-<img src="https://github.com/SergioDanielCruz/AyED/assets/106726622/81c54e83-c1ea-408d-ac7b-a9fba3f5e9f8" width="200" height="400" />
+<img src="https://github.com/SergioDanielCruz/AyED/assets/106726622/81c54e83-c1ea-408d-ac7b-a9fba3f5e9f8" width="200" height="200" />
