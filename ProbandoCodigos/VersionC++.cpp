@@ -6,7 +6,9 @@ using namespace std;
 //URL: https://learn.microsoft.com/en-us/cpp/build/reference/zc-cplusplus?view=msvc-170
 // PROBADOR DE VERSION DE C++
 int main() {
-    if (__cplusplus == 202002L)
+    if (__cplusplus == 202100L)
+        cout << "C++23" << endl;
+    else if (__cplusplus == 202002L)
         cout << "C++20" << endl;
     else if (__cplusplus == 201703L)
         cout << "C++17" << endl;
@@ -17,7 +19,7 @@ int main() {
     else if (__cplusplus == 199711L)
         cout << "C++98" << endl;
     else
-        cout << "pre-standard C++" << endl;
+        cout << "pre-standard C++ " << __cplusplus;
 }
 
 // OTRA FORMA ES EN LINE DE COMANDO APUNTANDO A UN ARCHIVO g++ hello.cpp -std=c++23
